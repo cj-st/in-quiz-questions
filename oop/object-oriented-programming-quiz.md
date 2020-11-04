@@ -325,3 +325,15 @@ static void Multiply(float num1, float num2) {};
 - [x] to separate class behaviour from the more general to the more specific 
 - [] to delegate coding responsibility more efficiently
 
+#### Q51. What does a concrete class not have?
+- attributes
+- purpose
+- parents
+- pure virtual functions  <<-- Not sure**
+
+
+#### Q52. Which statement is not true of polymorphism?
+- The type of the variable referencing the object will determine which methods to call.
+- It does not add any additional overhead when it runs.
+- It is a feature of OOP.
+- It allows a class to have more than one IS-A relationship  <<-- Not sure**
