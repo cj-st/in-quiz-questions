@@ -295,3 +295,24 @@ Q43. What is the recommended size for Redis keys?
     - short
     - medium
     - a single bit <<<<----May be
+
+Q44. You need to store an unordered collection of name-value pairs with differing data types in DynamoDB. Which data type should you choose?
+    
+    - map <<<<----Not sure
+    - list
+    - set
+    - stack
+ 
+Q45. You need to encrypt data at rest in DynamoDB. Which action do you take?
+
+   - You create an AWS encryption key and assign it to your table to encrypt data.
+   - You create an AWS encryption key and assign it to your database to encrypt data.
+   - You assign a default AWS encryption key to your table to encrypt data.
+   - None. Data is encrypted by defualt. <<<<----Not sure
+
+Q46. You neet to generate a unique, sequential identifier to each value stored in a Redis cluster. What do you do?
+
+   - Use the GUID keyword to generate a value.
+   - Implement a List object to generate a value.
+   - Use the INCR keyword to generate a value.<<<<----Not sure
+   - Implement a SortedSet object to generate a value.
